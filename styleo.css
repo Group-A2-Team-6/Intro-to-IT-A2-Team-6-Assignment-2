@@ -1,0 +1,159 @@
+body {font-family: 'calibri', Arial, sans-serif; background: #AB2B3F; font-size: 16px; color: #561720;}
+
+#headerandnav {width: 85%; max-width: 1200px; margin: auto; background: #E1ADB5; padding: 10px 25px;}
+
+header {width: 85%; max-width: 1200px; margin: auto; padding: 5px;}
+
+header h1 {font-size: 2em; margin-left: 2px; text-transform: uppercase; text-align: center; font-family: 'Calibri', Arial, sans-serif; color: #561720;}
+
+header h2 {font-size: 1.2em; margin-left: 2px; text-transform: uppercase; text-align: center; font-family: 'Calibri', Arial, sans-serif; color: #561720;}
+
+nav {width: 85%; max-width: 1200px; margin: auto; padding: 5px;}
+
+.main_menu {padding: 5px 5px; text-align: center; line-height: 32px;}
+
+.main_menu li {display: inline; padding: 0 10px 0 10px; font-size: 20px;}
+
+.main_menu a {text-decoration: none; color: #561720; font-variant: small-caps;}
+
+.main_menu a:hover {color: #AB2B3F;}
+
+.active {font-weight: bold;}
+
+#navbar {overflow: hidden; background-color: #E1ADB5; width: 10%; float: left; position: fixed; bottom: 0;}
+
+#navbar li {padding: 0 5px 0 5px; font-size: 18px; list-style-type: none;}
+
+#navbar a {color: #E1ADB5;  padding: 6px; text-decoration: none; color: #561720; font-variant: small-caps;}
+
+#navbar a:hover {color: #AB2B3F;}
+
+.content {padding: 16px;}
+
+.sticky {position: fixed; bottom: 0; width: 100%;}
+
+.sticky + .content {padding-top: 60px;}
+
+#home {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#home h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#about {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#about h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#profiles {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#profiles h1 {font-size: 1.6em; font-variant: small-caps; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#profiles h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#damian {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#damian h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#damian h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#shane {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#shane h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#shane h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#andrew {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#andrew h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#andrew h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+img {width: 60%; max-width: 510px; height: auto;}
+
+#adam {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#adam h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#adam h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#jack {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#jack h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#jack h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#references {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#references h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#industrydata {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#industrydata h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#itwork {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#itwork h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#computerhardwareengineer {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#computerhardwareengineer h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#computerhardwareengineer h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#computeranimator {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#computeranimator h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#computeranimator h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#softwaretestanalyst {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#softwaretestanalyst h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#softwaretestanalyst h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#itprojectmanager {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#itprojectmanager h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#itprojectmanager h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#networkengineer {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#networkengineer h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#networkengineer h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#ittechnologies {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#ittechnologies h1 {font-size: 1.6em; font-variant: small-caps; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#machinelearning {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#machinelearning h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#machinelearning h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#autonomousvehicles {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#autonomousvehicles h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#autonomousvehicles h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#robots {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#robots h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#robots h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#blockchainandcryptocurrencies {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#blockchainandcryptocurrencies h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#blockchainandcryptocurrencies h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+#teamproject {width: 85%; max-width: 800px; background: #E1ADB5; margin: auto; padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
+
+#teamproject h1 {font-size: 1.6em; margin-left: 2px; text-align: center; font-family: 'Calibri', Arial, sans-serif;}
+
+#teamproject h2 {font-size: 1.3em; margin-left: 2px; text-align: left; font-family: 'Calibri', Arial, sans-serif;}
+
+section {padding: 25px 35px; border-bottom: 2px solid #AB2B3F;}
